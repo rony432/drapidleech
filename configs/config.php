@@ -8,7 +8,7 @@ $options = array (
   'secretkey' => 'wpzzz',
   'download_dir' => 'files/',
   'download_dir_is_changeable' => false,
-  'delete_delay' => 18000,
+  'delete_delay' => 28800,
   'rename_prefix' => '',
   'rename_suffix' => '',
   'rename_underscore' => true,
@@ -18,11 +18,11 @@ $options = array (
   'auto_upload_disable' => false,
   'notes_disable' => true,
   'upload_html_disable' => true,
-  'myuploads_disable' => true,
+  'myuploads_disable' => false,
   'login' => false,
   'users' => 
   array (
-    'test' => 'test',
+    'test' => 'testpass',
   ),
   'template_used' => 'plugmod',
   'default_language' => 'en',
